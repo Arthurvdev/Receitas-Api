@@ -84,3 +84,30 @@ body{
     ;
 }
 
+.categorias{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px ;
+    text-align: center;
+    align-items: center;
+}
+
+.categorias a{
+    background-color: orenge;
+    width: 100px;
+}
+
+.categorias img{
+    width: 100px;
+    height: 100px;
+}
+
+.categorias h2{
+    text-align: center;
+    font: 1em sans-serif;
+    font-family: "Delius", cursive;
+}
+
+
+
