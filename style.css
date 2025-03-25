@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.banner{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    max-height: 50vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:center;
+}
+
+.faixa{
+    background-color: orange;
+    width: 100%;
+    height: 5vh;
+}
+
+.receitas_div{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+}
+
+.receita{
+    padding: 0px;
+    width: 500px;
+    border: 1px solid orange;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.receita img{
+    width: 500px;
+    max-height: 200px ;
+    object-fit: cover;
+    object-position:center;
+    position: relative;
+
+}
+
+.receita_h2{
+    font-family: "Delius", cursive;
+    font-size: 25px;
+    padding: 20px;
+    color: orange;
+}
+
+.receita strong{
+    color: orange;
+}
+
+.receita_p{
+    font-family: "Delius", cursive;
+    font-size: 15px;
+    padding: 20px;
+    padding-top: 1px;
+}
+
+.receita a{
+    padding: 20px;
+    ;
+}
+
