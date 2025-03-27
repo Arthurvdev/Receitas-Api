@@ -16,7 +16,7 @@ async function receitas() {
                 <p class="receita_p"><strong>Ingredientes:</strong> ${receita.ingredientes}</p>
                 <p class="receita_p"><strong>Tempo de Preparo:</strong> ${receita.tempo_de_preparo}</p>
                 <p class="receita_p"><strong>Modo de Preparo:</strong> ${receita.modo_preparo}</p>
-                <a href="${receita.url_video}" target="_blank"><p>Assistir vídeo</p></a>
+                <a href="${receita.url_video}" target="_blank">Assistir vídeo</a>
              `;
             
             receitasDiv.appendChild(receitaElement);
