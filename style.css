@@ -8,7 +8,47 @@
 
 body{
     overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    --color: #E1E1E1;
+    background-color: #F3F3F3;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+    background-size: 15px 15px;
+}
+
+.navbar-conteiner{
+    display: flex;
+    align-items: center;
     background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    
+}
+
+.navbar ul{
+    
+}
+
+.navbar ul a li{
+    font-family: "Delius", cursive;
+    font-size: 2vh;
+    padding: 10px;
+    transition: 0.5s;
+    color: rgb(153, 98, 53);
+}
+
+.navbar ul a li:hover{
+    background-color: rgb(70, 48, 7);
+    color: white;
+    transition: 0.5s;
 }
 
 .banner{
@@ -28,9 +68,19 @@ body{
 }
 
 .faixa{
-    background-color: orange;
+    background-color: rgb(245, 212, 150);
     width: 100%;
-    height: 5vh;
+    height: 25vh;
+    margin-top: 10vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.faixa h2{
+    font-family: "Poiret One", sans-serif;
+    font-size: 3vw;
+    color: rgb(184, 117, 63);
 }
 
 .receitas_div{
@@ -50,6 +100,7 @@ body{
     overflow-y: hidden;
     overflow-x: hidden;
     background-color: white;
+    border-radius: 20px;
 }
 
 .receita img{
@@ -79,24 +130,30 @@ body{
     padding-top: 1px;
 }
 
-.receita a{
+.receita a p{
     padding: 20px;
-    ;
+    text-align: center;
+    font-family: "Delius", cursive;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
 }
 
 .categorias{
     display: flex;
     justify-content: center;
-    gap: 30px;
-    padding-top: 20px ;
+    gap: 20px;
+    padding-top: 10vh;
     text-align: center;
     align-items: center;
-
 }
 
 .categorias a{
-    background-color: orenge;
-    width: 100px;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
 }
 
 .categorias img{
@@ -104,6 +161,8 @@ body{
     height: 100px;
     border-radius: 100%;
     transition: 0.5s;
+    object-fit: cover;
+    object-position:center;
 }
 
 .categorias img:hover{
@@ -115,6 +174,7 @@ body{
     text-align: center;
     font: 1em sans-serif;
     font-family: "Delius", cursive;
+    color: rgb(153, 98, 53);
 }
 
 
