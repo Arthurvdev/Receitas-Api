@@ -65,7 +65,20 @@ body{
     height: 100%;
     object-fit: cover;
     object-position:center;
+    animation: flutuar 18s ease-in-out infinite;
 }
+
+@keyframes flutuar {
+    0% {
+      transform: translateY(-40vh); /* baixo */
+    }
+    50% {
+      transform: translateY(-60vh); /* cima */
+    }
+    100% {
+      transform: translateY(-40vh); /* posição original */
+    }
+  }
 
 .faixa{
     background-color: rgb(245, 212, 150);
